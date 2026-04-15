@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://google.com/search" target="_blank" method="get">
+        <input type="text" name="q">
+        <button>Google Search</button>
+    </form>
+
+    <form>
+        courses :- <input type="text" name="courses" list="courses_list">
+        <datalist id="courses_list">
+            <option>Web Design</option>
+            <option>Web Development</option>
+            <option>MERN</option>
+            <option>Java</option>
+        </datalist>
+        <hr>
+        Food
+        <select name="food" multiple size="6">
+            <optgroup label="Veg">
+                <option>Potato</option>
+                <option>Tomato</option>
+            </optgroup>
+            <optgroup label="Fruits">
+                <option>Mango</option>
+                <option>Apple</option>
+            </optgroup>
+        </select>
+        <hr>
+        color: <input type="color" name="color">
+        <hr>
+        Date: <input type="date" name="date">
+        <hr>
+        Time: <input type="time" name="time">
+        <hr>
+        date & time: <input type="datetime-local" name="datetime">
+        <hr>
+        URL : <input type="url" name="domain">
+        <hr>
+        Range <input type="range" name="price" min="0" max="100">
+        <hr>
+
+        Checkbox <input type="checkbox" name="courses1" value="mern"> MERN
+        <input type="checkbox" name="courses1" value="webdesign"> FrontEnd
+        <hr>
+        Image: <input type="file" name="photo" accept="image/*">
+        <hr>
+
+
+        placeholder <input type="text" name="n1" placeholder="ENter full name">
+        <hr>
+        required <input type="text" name="n2" required>
+        <hr>
+        value and readonly <input type="text" name="n3" value="sajan" readonly>
+        <hr>
+        <input type="image" name="" src="b.jpg" width="50">
+        <input type="reset">
+        <input type="submit">
+        <button>Send</button>
+    </form>
+</body>
+
+</html>
