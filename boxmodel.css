@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 100px; height: 100px;
+    background: green;
+    margin: 50px 0 0 70px;
+}
+.container 
+{
+    width: 600px;  background: orange;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px 40px 45px;
+    /*  Text formatting */
+    text-align: left;/*left right center justify*/
+    text-transform: none;
+    /* none uppercase capitalize lowercase */
+    text-decoration:underline;
+    /* none underline overline line-through */
+    text-indent: 200px;
+    line-height: 1.6;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    word-break:normal;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Playwrite NZ Guides", cursive;
+    border:  solid red;
+    border-width: 2px 2px 2px 0;
+
+}
+a {
+    text-decoration: none; color: brown;
+      font-family: "Saira Stencil", sans-serif;
+}
+.one 
+{
+    font-size: 55px; color: brown;
+}
+
+.sir 
+{
+    background: skyblue;
+}

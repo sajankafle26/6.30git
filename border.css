@@ -1,0 +1,33 @@
+.box 
+{
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-width: 10px;
+    border-color: orange;
+    border-style: dotted;
+    box-sizing: border-box;
+    border-radius: 50%;
+    outline: 10px dotted brown;
+    outline-offset: 4px;
+}
+.box1 
+{
+    width: 250px; height: 250px; background: orangered;
+    border: 10px solid brown;
+}
+.box2 
+{
+    width: 200px; height: 200px; background: blue;
+    border-width: 20px 30px 10px 5px;
+    border-style: solid dotted dashed double;
+    border-color: chartreuse;
+}
+
+.arrow 
+{
+   border-width: 30px; 
+   border-style: solid;
+   border-color: blue transparent transparent transparent;
+   width: 0;
+}
