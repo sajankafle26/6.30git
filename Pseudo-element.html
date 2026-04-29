@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element</title>
+    <style>
+        p::first-letter{ color: red; font-size: 77px;}
+        p::first-line{ background: skyblue;}
+        h2::before{ content: '=>'; color: red; margin-right: 20px;}
+        h2::after{ content: '<='; color: #0037ff; margin-left: 20px;}
+        ::marker{ color: red;}
+        li::before{ content: ' ℄ ';}
+        ::placeholder{ color: #d28484;}
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+    </ul>
+    <input type="text" name="" placeholder="ENter Name">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui neque adipisci quaerat omnis quam, obcaecati dolorem numquam delectus earum unde iusto ipsam, magnam ad, expedita natus nulla exercitationem rerum itaque!
+    </p>
+    <h2>sajan</h2>
+    <h2>sir</h2>
+</body>
+</html>
+
+
+tailwind.config.js

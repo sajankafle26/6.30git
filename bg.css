@@ -1,0 +1,33 @@
+.box 
+{
+    height: calc(100vh - 50px);
+    background-color: skyblue;
+    background-image: url(cow.webp);
+    background-size:200px auto ; /*width height/contain/cover*/
+    background-repeat:no-repeat;
+    /* repeat no-repeat repeat-x repeat-y */
+    background-position: right top; /*x y */
+    background-attachment: fixed;
+}
+body 
+{
+    height: 1900px
+}
+
+.box2 
+{
+    height: 60vh;
+    background-image: linear-gradient(to left, red, green);
+}
+.box3 
+{
+    height: 60vh;
+    background-image: radial-gradient(skyblue,blue);
+}
+.box4 
+{
+    height: 80vh;
+    background: linear-gradient(#ff0000ba, #00800079), url(cow.webp);
+    background-size: cover;
+}
+ 

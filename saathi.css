@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.top {
+  background: #000;
+  color: #fff;
+  padding: 10px 0;
+}
+ul {
+  list-style: none;
+}
+.gap {
+  gap: 20px;
+}
+.ai {
+  align-items: center;
+}
+.banner {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.aboutleft
+{
+    width: 500px;
+}
+.wrap
+{
+    flex-wrap: wrap;
+}
+.box{
+    width: 32%;
+}
+.copyright
+{
+    background: #967B4F;
+    padding: 15px 0;
+}

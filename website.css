@@ -1,0 +1,39 @@
+*
+{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+header 
+{
+    background: #8484ff;
+    padding: 20px 0;
+}
+.container
+{
+    width: 1200px; margin: auto;
+}
+.flex 
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul 
+{
+    list-style: none;
+}
+nav 
+{
+    background: green; color: #fff;padding: 15px 0;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+.box 
+{
+    background: skyblue;
+    padding: 10px;
+}
+.gap 
+{
+    gap: 20px;
+}

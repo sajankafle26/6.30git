@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        p:first-child{ color: red;}
+        p:last-child{ color: green;}
+        p:nth-child(2), p:nth-child(3){ color: aqua;}
+        p:nth-child(odd){ background: skyblue;}
+        p:nth-child(even){ background: pink;}
+        
+        a:visited{ color: orange;}
+        a:link{ color: brown;}
+        a:hover{ color: aqua;}
+        a:active{ color: chartreuse;}
+        /* css Variable */
+        :root 
+        {
+            --brand: #32d811;
+            --w: 100px;
+        }
+        h1 
+        {
+            background: var(--brand); width: var(--w); height: var(--w);
+        }
+        input:focus{ outline: 1px solid red; border: none;}
+        input:required{ background: #32d811;}
+    </style>
+</head>
+<body>
+    <input type="text" name="" id="">
+    <input type="text" name="" id="" required>
+    <h1>demo</h1>
+    <a href="https://google.com">Home</a>
+    <a href="https://nvbnsgvsghd.com">About</a>
+    <div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>

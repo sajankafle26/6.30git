@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+nav 
+{
+    margin: 60px;
+}
+ul {
+    list-style: none;
+    display: flex; gap: 20px;
+}
+.dropdown 
+{
+    display: none;
+}
+li:hover .dropdown
+{
+    display: block;
+}

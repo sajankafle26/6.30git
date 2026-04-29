@@ -1,0 +1,25 @@
+.box
+{
+    padding: 50px;
+    border: 2px solid #000;
+    width: 100px; 
+}
+.con 
+{
+    background: pink;
+    display:flex;
+    /* flex | inline-flex */
+    flex-direction:row;
+    /* row column row-reverse column-reverse */
+    flex-wrap: wrap ;
+    /*nowrap wrap wrap-reverse */
+    justify-content:start;
+    /* start end center space-between space-around space-evenly */
+    height: 850px;
+    align-items:start ;
+    /* stretch start end center baseline */
+    align-content: start;
+    gap: 20px 30px;
+    /* row-gap: 20px;
+    column-gap: 30px; */
+}

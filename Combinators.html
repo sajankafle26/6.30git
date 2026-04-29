@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+       .box p{ color: green;} /* Descendant Selector  */
+       .box > p { background: blue;} /*Child Selector */
+       .box + p { font-size: 66px;} /* Adjacent Sibling Selector */
+       .box ~ p { text-decoration: underline;} /*  General Sibling Selector  */
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>sajan</p>
+        <div class="child">
+            <p>sagar</p>
+        </div>
+    </div>
+    <p>ram</p>
+    <p>sita</p>
+</body>
+</html>
