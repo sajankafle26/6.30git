@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body 
+{
+  /* font-family: "Mukta", sans-serif; */
+    font-family: "Noto Sans", sans-serif;
+}
+.thumb img {
+  height: 160px;
+  object-fit: cover;
+}
+.abc {
+  font-size: 22px;
+  font-weight: semibold;
+}

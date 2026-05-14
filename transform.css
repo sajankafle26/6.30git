@@ -1,0 +1,63 @@
+.box
+{
+    width: 100px; height: 120px;
+    transition: 2s;
+}
+.a 
+{
+    background: red;
+     transition-duration: 5s;
+     transition-delay: 2s;
+     transition-property: all;
+     transition-timing-function: ease;
+     /* transition: all 5s ease 2s; */
+}
+.a:hover 
+{
+    width: 300px;
+}
+.b 
+{
+    background: green;
+    transition: 2s;
+    transform-origin: right  bottom;
+}
+.b:hover 
+{
+        transform: rotate(-40deg);
+}
+.c 
+{
+    background: yellow;
+}
+.c:hover 
+{
+    transform: skew(-20deg, 40deg);
+}
+.d 
+{
+    background: skyblue;
+    transform-origin: left top;
+}
+.d:hover 
+{
+    transform: scale(2,4);
+}
+.e 
+{
+    background: palegreen;
+}
+.e:hover 
+{
+    transform: translate(-20px,-30px);
+}
+main
+{
+    width: 200px; height: 200px;background: blue; position: absolute;
+    left: 50%; top: 50%; transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+img{ width: 100%; height: 100%;transition: 8s;}
+img:hover{ transform: scale(2); }
+h3{ position: absolute; bottom: 20px; left:0; transform: translateY(60px); transition: 0.9s;}
+main:hover h3{ transform: translate(0);} 

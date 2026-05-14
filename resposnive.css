@@ -1,0 +1,21 @@
+@media(max-width: 480px)
+{
+    body{ background: skyblue;}
+}
+@media(min-width: 481px) and (max-width: 780px)
+{
+    body{ background: pink;}
+}
+@media(min-width: 780px) and (max-width: 1200px)
+{
+    body{ background: violet;}
+}
+@media(min-width: 1200px)
+{
+    body{ background: yellow;}
+    header{ border: 2px solid #000;}
+}
+header {
+    background: orange; padding: 30px;
+    max-width: 700px; margin: auto;
+}
